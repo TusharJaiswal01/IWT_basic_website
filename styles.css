@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .hero {
+    background-color: #0077cc;
+    height: 400px;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    
+  }
+  
+  .hero .cta-button {
+    margin-top: 70px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .roadmap {
+    padding: 60px 0;
+    background-color: #f0f4f8;
+  }
+  
+  .roadmap-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .timeline-line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px;
+    background-color: #0077cc;
+    height: 100%;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .timeline-item.left {
+    left: 0;
+  }
+  
+  .timeline-item.right {
+    left: 50%;
+  }
+  
+  .timeline-content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeline-icon {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #0077cc;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transform: translateY(-50%); /* Center the circle vertically along the line */
+  }
+  
+  /* Left side cards */
+  .timeline-item.left .timeline-icon {
+    left: -20px; /* Attach to the left of the card */
+    transform: translateX(-100%) translateY(-50%); /* Position left of the card */
+  }
+  
+  /* Right side cards */
+  .timeline-item.right .timeline-icon {
+    left: 100%; /* Attach to the right of the card */
+    transform: translateX(20px) translateY(-50%); /* Position right of the card */
+  }
+  
+  .card {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .card a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  

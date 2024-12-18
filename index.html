@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Full-Stack Development Roadmap</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Link to Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="container">
+      <a href="#home" class="logo">DevRoadmap</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container" style="margin-top: 40px;">
+      <h1 >Full-Stack Web Development Roadmap</h1>
+      <p>Your journey to becoming a full-stack developer starts here.</p>
+     
+    </div>
+    <div style="margin-top: 50px;"> <a href="#roadmap" class="cta-button" style="margin-top: 20px;">Start Your Journey</a></div>
+  </section>
+
+  <!-- Roadmap Section -->
+  <section id="roadmap" class="roadmap">
+    <div class="container">
+      <h2 class="roadmap-heading">Full-Stack Development Roadmap</h2>
+      <div class="timeline">
+        <div class="timeline-line"></div> <!-- Vertical Line -->
+
+        <!-- Frontend Technologies -->
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>Frontend Technologies</h3>
+            <p><strong>Estimated Time:</strong> 3-4 Months</p>
+            <div class="card">
+              <h4>HTML & CSS</h4>
+              <p>Start with HTML5 and CSS3. Learn how to structure web pages and apply styles. You'll also get familiar with layout concepts like Flexbox and Grid.</p>
+              <p><strong>Estimated Time:</strong> 1 Month</p>
+              <a href="https://www.w3schools.com/html/" target="_blank">HTML Tutorial</a>
+              <a href="https://www.w3schools.com/css/" target="_blank">CSS Tutorial</a>
+            </div>
+          </div>
+          <div class="timeline-icon">
+            <i class="fas fa-code"></i>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>JavaScript</h3>
+            <p><strong>Estimated Time:</strong> 1.5 Months</p>
+            <div class="card">
+              <h4>JavaScript Basics</h4>
+              <p>Learn JavaScript to add interactivity to your web pages. Topics include variables, functions, loops, arrays, and DOM manipulation.</p>
+              <a href="https://www.javascript.com/" target="_blank">JavaScript Tutorial</a>
+            </div>
+          </div>
+          <div class="timeline-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+        </div>
+
+        <!-- React.js -->
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>React.js</h3>
+            <p><strong>Estimated Time:</strong> 1.5 Months</p>
+            <div class="card">
+              <h4>React Basics</h4>
+              <p>Learn React.js to build dynamic and responsive web applications. Focus on components, JSX, state, and hooks.</p>
+              <a href="https://reactjs.org/docs/getting-started.html" target="_blank">React Docs</a>
+            </div>
+          </div>
+          <div class="timeline-icon">
+            <i class="fab fa-react"></i>
+          </div>
+        </div>
+
+        <!-- Backend (Node.js & Express) -->
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>Backend (Node.js & Express)</h3>
+            <p><strong>Estimated Time:</strong> 1 Month</p>
+            <div class="card">
+              <h4>Node.js & Express</h4>
+              <p>Learn backend development with Node.js and Express. You'll build RESTful APIs and integrate them with a database.</p>
+              <a href="https://nodejs.org/en/docs/" target="_blank">Node.js Docs</a>
+              <a href="https://expressjs.com/en/starter/installing.html" target="_blank">Express Installation</a>
+            </div>
+          </div>
+          <div class="timeline-icon">
+            <i class="fab fa-node"></i>
+          </div>
+        </div>
+
+        <!-- Docker -->
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>Docker</h3>
+            <p><strong>Estimated Time:</strong> 1 Month</p>
+            <div class="card">
+              <h4>Docker Basics</h4>
+              <p>Learn Docker for containerization, which allows you to package your applications in a portable and consistent environment.</p>
+              <a href="https://www.docker.com/get-started" target="_blank">Docker Docs</a>
+            </div>
+          </div>
+          <div class="timeline-icon">
+            <i class="fab fa-docker"></i>
+          </div>
+        </div>
+
+        <!-- AWS -->
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>AWS</h3>
+            <p><strong>Estimated Time:</strong> 1 Month</p>
+            <div class="card">
+              <h4>AWS Deployment</h4>
+              <p>Learn how to deploy applications on Amazon Web Services (AWS), focusing on EC2, S3, and RDS services for scalable cloud applications.</p>
+              <a href="https://aws.amazon.com/training/" target="_blank">AWS Training</a>
+            </div>
+          </div>
+          <div class="timeline-icon">
+            <i class="fab fa-aws"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  
+
+ 
+  <!-- Testimonial Section -->
+<section id="testimonials" style="width: 100%; overflow: hidden; background-color: #0077cc; padding: 40px 20px; box-sizing: border-box;">
+  <h2 style="text-align: center; font-size: 2rem; margin-bottom: 20px; color: #333;">What Our Users Say</h2>
+  <div id="testimonial-slider" style="display: flex; transition: transform 0.5s ease-in-out;">
+    <!-- Testimonial 1 -->
+    <div style="flex: 0 0 100%; display: flex; justify-content: center; align-items: center; box-sizing: border-box; padding: 20px;">
+      <div style="background-color: #fff; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 10px; max-width: 500px; text-align: center;">
+        <p style="font-size: 1.2rem; color: #555;">"DevRoadmap has revolutionized my learning journey. Highly recommend it!"</p>
+        <p style="font-weight: bold; color: #333;">- John Doe</p>
+      </div>
+    </div>
+    <!-- Testimonial 2 -->
+    <div style="flex: 0 0 100%; display: flex; justify-content: center; align-items: center; box-sizing: border-box; padding: 20px;">
+      <div style="background-color: #fff; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 10px; max-width: 500px; text-align: center;">
+        <p style="font-size: 1.2rem; color: #555;">"The structured roadmaps are a game-changer for developers."</p>
+        <p style="font-weight: bold; color: #333;">- Jane Smith</p>
+      </div>
+    </div>
+    <!-- Testimonial 3 -->
+    <div style="flex: 0 0 100%; display: flex; justify-content: center; align-items: center; box-sizing: border-box; padding: 20px;">
+      <div style="background-color: #fff; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 10px; max-width: 500px; text-align: center;">
+        <p style="font-size: 1.2rem; color: #555;">"Love the simplicity and usability. Great for beginners and pros alike!"</p>
+        <p style="font-weight: bold; color: #333;">- Alice Johnson</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const slider = document.getElementById("testimonial-slider");
+  const testimonials = slider.children;
+  const testimonialCount = testimonials.length;
+  let index = 0;
+
+  // Clone the testimonials for infinite scrolling
+  for (let i = 0; i < testimonialCount; i++) {
+    const clone = testimonials[i].cloneNode(true);
+    slider.appendChild(clone);
+  }
+
+  // Infinite slider
+  setInterval(() => {
+    index++;
+    slider.style.transition = "transform 0.5s ease-in-out";
+    slider.style.transform = `translateX(-${index * 100}%)`;
+
+    // Reset without transition for infinite effect
+    if (index >= testimonialCount) {
+      setTimeout(() => {
+        slider.style.transition = "none";
+        slider.style.transform = `translateX(0)`;
+        index = 0;
+      }, 500); // Wait for the transition to finish
+    }
+  }, 3000); // Change slide every 3 seconds
+</script>
+
+<!-- Footer -->
+<footer style="display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #333; color: #fff; min-height: 50vh; flex-wrap: wrap; position: relative;">
+  <!-- Left Section -->
+  <div style="width: 45%; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; text-align: left; padding: 20px;">
+    
+    <div style="margin-top: 20px; font-size: 22px; color: white;">
+      <p style="margin: 5px 0; font-size: 34px;">Designed and Developed by:</p>
+      <p style="margin: 5px 0; font-size: 26px;">Tushar Jaiswal</p>
+      <p style="margin: 5px 0; font-size: 26px;">Enroll No.: 0827CS221292</p>
+      <p style="margin: 5px 0; font-size: 26px;">Sneha Parmar</p>
+      <p style="margin: 5px 0; font-size: 26px;">Enroll No.: 0827CS221265</p>
+    </div>
+   
+    <p style="margin: 5px 0;">&copy; 2024 DevRoadmap</p>
+    <p style="margin: 5px 0;">Empowering developers through structured roadmaps and resources.</p>
+    <a href="#home" style="color: #fff; text-decoration: none; margin-top: 15px; font-weight: bold;">Back to Top</a>
+  </div>
+
+  <!-- Vertical Divider -->
+  <div style="width: 1px; height: 70%; background-color: #fff;"></div>
+
+  <!-- Right Section -->
+  <div style="width: 45%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 20px;">
+    <a href="#" style="color: #fff; margin: 5px 0; text-decoration: none; font-weight: bold;">Instagram</a>
+    <a href="#" style="color: #fff; margin: 5px 0; text-decoration: none; font-weight: bold;">Twitter</a>
+    <a href="#" style="color: #fff; margin: 5px 0; text-decoration: none; font-weight: bold;">Facebook</a>
+    <a href="#" style="color: #fff; margin: 5px 0; text-decoration: none; font-weight: bold;">LinkedIn</a>
+    <a href="#" style="color: #fff; margin: 5px 0; text-decoration: none; font-weight: bold;">YouTube</a>
+    <a href="#" style="color: #fff; margin: 5px 0; text-decoration: none; font-weight: bold;">Pinterest</a>
+    <a href="#" style="color: #fff; margin: 5px 0; text-decoration: none; font-weight: bold;">GitHub</a>
+  </div>
+</footer>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
